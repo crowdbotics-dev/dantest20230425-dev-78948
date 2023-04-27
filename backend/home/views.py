@@ -1,3 +1,5 @@
+from .models import Gatos, Personas
+from django.views.generic import CreateView, UpdateView, DetailView, ListView
 from django.shortcuts import render
 
 

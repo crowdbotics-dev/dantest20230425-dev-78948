@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from home.models import Personas,Gatos
-from .serializers import PersonasSerializer,GatosSerializer
+from home.models import Gatos,Personas
+from .serializers import GatosSerializer,PersonasSerializer
 from rest_framework import authentication
 from rest_framework.authtoken.serializers import AuthTokenSerializer
 from rest_framework.viewsets import ModelViewSet, ViewSet

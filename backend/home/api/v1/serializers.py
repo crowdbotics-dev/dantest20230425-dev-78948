@@ -1,5 +1,5 @@
 from django.contrib.auth import get_user_model
-from home.models import Personas,Gatos
+from home.models import Gatos,Personas
 from django.http import HttpRequest
 from django.utils.translation import ugettext_lazy as _
 from allauth.account import app_settings as allauth_settings

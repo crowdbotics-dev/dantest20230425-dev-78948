@@ -8,4 +8,4 @@ class Personas(models.Model):
     'Generated Model'
     aid = models.BigIntegerField(blank=True,)
     nombre = models.TextField(blank=True,)
-    gatoid = models.ForeignKey("home.Gatos",on_delete=models.CASCADE,null=True,blank=True,related_name="personas_gatoid",)
+    gatoid = models.ForeignKey("home.Gatos",null=True,blank=True,on_delete=models.CASCADE,related_name="personas_gatoid",)
